@@ -8,5 +8,7 @@ Sample setup using Poetry to build a sane Azure Functions development environmen
 5. Copy local.settings.json-example to local.settings.json and adjust the values
 6. Copy .vscode/settings.json-example to .vscode/settings.json and adjust the values
 7. In VSCode install the Python extension
-8. Run the task `Run Functions`
-9. Attach to debug
+8. Install dotnet-sdk: https://dotnet.microsoft.com/download
+9. Run `func extensions install` from the repository
+10. Run the VSCode task `Run Functions`
+11. Attach to debug
