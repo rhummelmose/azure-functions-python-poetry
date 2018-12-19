@@ -72,3 +72,4 @@ def processMessage(data: DocumentData, startTime: datetime):
     data.stop = f'{stopTime:%Y-%m-%d %H:%M:%S.%f%z}'
     data.durationSeconds = (stopTime-startTime).total_seconds()
     data.delayInStartProcessingFromMessage = (startTime - messageInsertionTime).total_seconds()
+    

@@ -12,6 +12,7 @@ azure-storage-queue = "^1.4"
 [tool.poetry.dev-dependencies]
 pylint = "^2.0"
 azure-functions-worker = "1.0.0a6"
+ptvsd = "^4.2.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
