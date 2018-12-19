@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/Users/rhummelmose/Library/Caches/pypoetry/virtualenvs/azure-functions-python-poetry-py3.6/bin/python",
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.venvPath": "/Users/rhummelmose/Library/Caches/pypoetry/virtualenvs",
+    "azureFunctions.pythonVenv": "azure-functions-python-poetry-py3.6",
+}
